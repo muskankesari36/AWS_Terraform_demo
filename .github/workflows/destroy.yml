@@ -45,9 +45,6 @@ jobs:
       - name: 'Terraform format'
         run: terraform fmt
 
-      - name: 'Terraform plan'
-        run: terraform plan
-
       - name: 'Terraform destroy'
         run: terraform destroy -auto-approve
           
